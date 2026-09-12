@@ -207,8 +207,7 @@ if st.session_state.page == "Home":
             st.markdown(f"""
             <div class="card">
                 <h3>📦 {service}</h3>
-                <div class="small">Karthik Logistics service</div>
-            </div>
+                </div>
             """, unsafe_allow_html=True)
 
     st.link_button(
